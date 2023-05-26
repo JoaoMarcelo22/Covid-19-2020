@@ -6,11 +6,11 @@
   <ul>
     <li><h3>Grafico de Barras:</h3>
       <p>Apresenta as regiões no eixo X e o valor total de óbitos no eixo Y.</p></li>
-      <img src="assets/IMG1.png" height="100px" width="100px">
+      <img src="assets/IMG1.png" height="350px" width="350px">
     <li><h3>Grafico Choropleth:</h3>
       <p>Apresenta as regiões usando a cor vermelha como base, onde a cor mais forte representa a região com a maior quantidade de óbitos e a cor mais clara representa regiões com menos óbitos. Ao lado direito, podemos observar o volume de óbitos, variando de 0 a aproximadamente 90.000.</p></li>
-      <img src="assets/IMG2.png" height="100px" width="100px">
+      <img src="assets/IMG2.png" height="350px" width="350px">
     <li><h3>Grafico de Linhas:</h3>
       <p>Apresenta as regiões no eixo X e o valor total de óbitos por mês no eixo Y. Esse gráfico é usado para observar o crescimento dos óbitos ao longo do ano.</p></li>
-        <img src="assets/IMG3.png" height="100px" width="100px">
+        <img src="assets/IMG3.png" height="350px" width="350px">
   </ul>
