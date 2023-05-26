@@ -4,7 +4,7 @@ import geopandas as gpd
 
 
 arquivo = 'brazil_covid19.csv'
-colunas_desejadas = ['region', 'date', 'deaths']
+colunas_desejadas = ['region', 'date', 'deaths', 'state']
 df = pd.read_csv(arquivo, delimiter=',', encoding='latin-1', error_bad_lines=False)
 
 df = df[colunas_desejadas]
@@ -12,6 +12,8 @@ df = df[colunas_desejadas]
 df = df.dropna()
 
 df['date'] = pd.to_datetime(df['date'])
+
+df = df[df['date'].dt.year <= 2020]
 
 df['mes'] = df['date'].dt.month
 
